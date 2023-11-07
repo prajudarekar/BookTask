@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="Myscript.js"></script>
+  </head>
+  <body>
+    <section class="section-book">
+      <div class="container grid grid--2-cols">
+        <input
+          id="searchinput"
+          type="text"
+          class="search-input"
+          placeholder="enter user input for books"
+          name="search"
+        />
+        <button type="submit" class="btn search-btn" onclick="checksubmit()">
+          Search
+        </button>
+      </div>
+    </section>
+    <section class="section-book-Details">
+      <div
+        id="book-container"
+        class="container book-container grid grid--3-cols"
+      >
+        <!--  <div class="book-content-card">
+                <h2 class="book-title" ></h2>
+            </div>
+            -->
+      </div>
+    </section>
+  </body>
+</html>

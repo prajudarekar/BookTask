@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.3rem;
+}
+.grid--2-cols {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+/******section book************/
+.search-input {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  color: #4f4e4e;
+  font-size: 1.2rem;
+}
+.search-btn {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: rgb(86, 130, 241);
+}
+.search-input::placeholder {
+  color: #6f6b6b;
+  font-size: 1.2rem;
+}
+
+/***********book card details**********/
+
+.book-content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  border: 1px solid #eee;
+  border-radius: 1.1rem;
+  height: 10.5rem;
+  width: auto;
+  padding: 3.3rem 1.1rem;
+  box-shadow: 0, 0, 0, rgba(123, 0, 0, 0.2);
+  background-color: #dfd8d2;
+}
+.book-container {
+  height: 45.3rem;
+  overflow: scroll;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #555;
+  text-transform: capitalize;
+}
+.book-author {
+  font-size: 1.3rem;
+  color: #4f4e4e;
+  text-transform: lowercase;
+}
+.book-type {
+  font-size: 1.3rem;
+  color: #4f4e4e;
+  text-transform: capitalize;
+}
